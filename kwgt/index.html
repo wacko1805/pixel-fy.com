@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>KWGT   |   Pixel-fy</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-height: 650px) {
+  .column {
+    width: 100%;
+  }
+  }
+
+  img {
+    border-radius: 20px;
+  }
+    </style>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="/">Home</a>
+            <a href="/spoof">Pixel Spoofs</a>
+            <a href="/kwgt">A11 Widgets</a>
+            <a href="/wallpapers">Pixel Wallpapers</a>
+          </div>
+        <div class="nav">
+            <a onclick="openNav()">Menu</a>
+        </div>
+        <header>
+            <h1>Pixel-fy for KWGT</h1>
+            <p>ANdroid 11 Style widgets</p>
+        </header>
+        <div class="main">
+            <div class="row">
+                <div class="column">
+                  <h2>A11 style Small</h2>
+                  <a href="http://www.mediafire.com/file/hvtxs0q17sur11m/A11_music_small.kwgt/file"><button class="btn fourth">Download</button></a>
+                </div>
+                <div class="column">
+                  <img src="small.png" width="100%">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="column">
+                  <h2>A11 style Medium</h2>
+                  <a href="http://www.mediafire.com/file/l9m8cpfdcu9e0ap/A11_music_big.kwgt/file"><button class="btn fourth">Download</button></a>
+                </div>
+                <div class="column">
+                  <img src="med.png" width="100%">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="column">
+                  <h2>A11 style Large</h2>
+                  <a href="http://www.mediafire.com/file/ox2suorg9qpzewe/A11_music_extra.kwgt/file"><button class="btn fourth">Download</button></a>
+                </div>
+                <div class="column">
+                  <img src="large.png" width="100%">
+                </div>
+              </div>
+
+               </div>
+        <script src="/nav.js"></script>
+    </body>
+</html>
