@@ -51,12 +51,12 @@
             transition: 0.2s;
         }
 
-        @media only screen and (max-height: 650px) {
+        @media only screen and (max-width: 600px) {
             header {
                 padding-top: 30%;
                 padding-bottom: 30%;
             }
-        }
+            }
 
         p {
             letter-spacing: 2px;
