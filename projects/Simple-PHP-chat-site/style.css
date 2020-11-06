@@ -1,0 +1,37 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+
+  }
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 2px solid #ec524b;
+  border-radius: 30px;
+}
+
+input[type=submit] {
+  width: 100%;
+  color: white;
+  background-color: #ec524b;
+  border-radius: 30px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type=submit]:hover {
+  background-color: #9ad3bc;
+}
+
+.divmain {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
