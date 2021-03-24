@@ -1,9 +1,0 @@
-
-User: Hb
-Message: Tt
-User: Hello
-Message: Test
-User: Jack
-Message: He'll
-User: erf
-Message: waa
